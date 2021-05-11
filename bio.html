@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Waste Segregator - Biodegradable Waste</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://ak.picdn.net/shutterstock/videos/20499013/thumb/5.jpg?ip=x480">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-partner text-light text-decoration-none" href="mailto:priyanshi.chauhan1234@gmail.com">priyanshi.chauhan1234@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-partner text-light text-decoration-none" href="tel:1234567890">1234567890</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://facebook.com/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                Waste Segregator
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link dropdown">
+                                Types
+                                <div class="dropdown-content">
+                                  <a href="bio.html">Biodegradable</a>
+                                  <a href="non-bio.html">Non-Biodegradable</a>
+                                  <a href="haz.html">Hazarduous</a>
+                                </div>
+                              </div>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                 </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <section class="bg-success py-5">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-8 text-white">
+                    <h1>About Biodegradable Waste</h1>
+                    <p style="text-align: justify;">
+                        Biodegradable waste includes any organic matter in waste which can be broken down into carbon dioxide, water, methane or simple organic molecules by micro-organisms and other living things by composting, aerobic digestion, anaerobic digestion or similar processes. In waste management, it also includes some inorganic materials which can be decomposed by bacteria. Such materials include gypsum and its products such as plasterboard and other simple organic sulfates which can decompose to yield hydrogen sulphide in anaerobic land-fill conditions.
+                        <br>In domestic waste collection, the scope of biodegradable waste may be narrowed to include only those degradable wastes capable of being handled in the local waste handling facilities.
+                        Biodegradable waste when not handled properly can have an outsized impact on climate change, especially through methane emissions from anaerobic fermentation that produces landfill gas. Other approaches to reducing the impact include reducing the amount of waste produced, such as through reducing food waste.
+                    </br>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="http://www.crcog.net/vertical/Sites/%7B6AD7E2DC-ECE4-41CD-B8E1-BAC6A6336348%7D/uploads/What_is_organics.pdf(1).jpg" class="about-us-img" alt="About team">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Close Banner -->
+
+    <!-- Start Section -->
+    <section class="container py-5">
+        <div class="row text-center pt-5 pb-3">
+            <div class="col-lg-8 m-auto">
+                <h1 class="h1">How to process the Biodegradable Waste.</h1>
+                <p>
+                    There are many ways to process the bio-degradable waste. Click on the below banners to know more. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-8 col-lg-4 pb-5"id="comp">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center" ></div>
+                    <h2 class="h5 mt-4 text-center" >Composting</h2>
+                </div>
+               
+            </div>
+            
+
+            <div class="col-md-8 col-lg-4 pb-5"id="land">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                  
+                    <h2 class="h5 mt-4 text-center" >Landfilling</h2>
+                </div>
+               
+            </div>
+
+            <div class="col-md-8 col-lg-4 pb-5" id="ad">
+                <div class="h-100 py-5 services-icon-wap shadow"> 
+                    <h2 class="h5 mt-4 text-center">Anaerobic digestion</h2>
+                </div>
+            </div>
+
+        </div>
+        <div class="row pt-3 pb-2" id="comp_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;">
+                    Since biodegradable or organic wastes like vegetable peels, waste food, leaves, dead flowers, and egg shells can be recycled, they are converted into manure by burying them in compost pits. Recycling of organic wastes like vegetable peels, waste food, leaves, etc., by burying them in compost pits is called composting. Composting is a simple and almost effortless process of recycling. The biodegradable wastes are degraded by the action of small organisms like bacteria and fungi. There is also a different kind of composting where a kind of earthworm called red worms (or red wrigglers) act on wastes and degrade them.
+                    <br></br>
+                    <br>This type of composting with the help of a type of earthworm called red worms, is called vermicomposting. Red worms break down the organic matter into nutrient-rich manure which increases soil fertility. Vermicompost can be made in 3-4 weeks and it appears as loose soil-like material. One should not put animal product or oily substance in the pit as it could lead to the growth of disease causing organisms.</br>
+                </p>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-2" id="land_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;">
+                    Large areas used for waste disposal are called landfills. Landfill is another method to manage huge amount, of biodegradable waste. In a landfill, garbage is buried in such a way that it does not damage the environment. Garbage buried inside landfills stay here for a long time as it decomposes very slowly. After a landfill is full, it can be converted into a park. For example, Indraprastha Park in New Delhi is built on a landfill site.
+                    <br>
+                    <ol>
+                        <li>Clay.</li>
+                        <li>Plastic barriers do not allow the garbage to mix with soil and groundwater. This protects the environment of the area surrounding the landfill.</li>
+                        <li>Special pipes collect rainwater that seeps through the landfill.</li>
+                        <li>Each day’s garbage is buried in a separate compartment called a cell. Cells are separated from one another (usually by layers of soil).</li>
+                        <li>Bulldozers, tractors, etc., are used to compress the existing cells to create more space for adding new cells.</li>
+                    </ol>    
+                </br>
+                </p>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-2" id="ad_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;">
+                    AD can be used to treat food and similar wet organic wastes. It takes place in a closed container, excluding oxygen. It is clean and relatively odour-free. It produces a nutrient-rich solid material called digestate and biogas containing methane and CO2.
+                    The biogas may need further processing before it can be burnt to produce electricity. Electricity that you produce can be used to power the plant or exported to the grid. Alternatively, it can be used as a transport fuel.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+
+    
+
+
+<!-- Start Footer -->
+<footer class="bg-dark" id="ws_footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 pt-5">
+                <h2 class="h2 text-success border-bottom pb-3 border-light logo">Waste Segregator</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        Plot no.3, maa ashapura nagar-2, Gujarat, 370001
+                    </li>
+                    <li>
+                        <i class="fa fa-phone fa-fw"></i>
+                        <a class="text-decoration-none" >1234567890</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope fa-fw"></i>
+                        <a class="text-decoration-none">priyanshi.chauhan1234@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                    <li><a class="text-decoration-none" href="about.html">About Us</a></li>
+                    <li><a class="text-decoration-none" href="#">FAQs</a></li>
+                    <li><a class="text-decoration-none" href="contact.html">Contact</a></li>                </ul>
+            </div>
+
+        </div>
+
+        <div class="row text-light mb-4">
+            <div class="col-12 mb-3">
+                <div class="w-100 my-3 border-top border-light"></div>
+            </div>
+            <div class="col-auto me-auto">
+                <ul class="list-inline text-left footer-icons">
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-auto">
+                <label class="sr-only" for="subscribeEmail">Email address</label>
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                    <div class="input-group-text btn-success text-light">Subscribe</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 bg-black py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-left text-light">
+                        Copyright &copy; 2021 VIT 
+                        | Designed by Priyanshi Chauhan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+    <!-- End Script -->
+</body>
+
+</html>

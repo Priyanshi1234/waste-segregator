@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Waste Segregator - Hazarduous Waste</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://ak.picdn.net/shutterstock/videos/20499013/thumb/5.jpg?ip=x480">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-partner text-light text-decoration-none" href="mailto:priyanshi.chauhan1234@gmail.com">priyanshi.chauhan1234@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-partner text-light text-decoration-none" href="tel:1234567890">1234567890</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://facebook.com/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                Waste Segregator
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link dropdown">
+                                Types
+                                <div class="dropdown-content">
+                                  <a href="bio.html">Biodegradable</a>
+                                  <a href="non-bio.html">Non-Biodegradable</a>
+                                  <a href="haz.html">Hazarduous</a>
+                                </div>
+                              </div>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                 </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <section class="bg-success py-5">
+        <div class="container">
+            <div class="row align-items-center py-5">
+                <div class="col-md-8 text-white">
+                    <h1>About Hazarduous Waste</h1>
+                    <p style="text-align: justify;">
+                        According to the EPA, “Simply defined, a hazardous waste is a waste with properties that make it dangerous or capable of having a harmful effect on human health or the environment.” Hazardous waste also includes different physical forms, including: solids, liquids, and gases. 
+                        Dangerous wastes can also be produced through different means. From manufacturing methods, and discarded substances like unused commercial products (i.e., pesticides and cleaning fluids), and used materials, according to the University of California-Irvine. 
+                        The hazardous toxic waste can also be defined in regulatory terms.
+                        Waste products can still be considered “hazardous” even if they don’t have any technical features of this kind of dangerous waste. Some examples include soil produced from large clean-up projects and used oil.
+                    </br>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://zoetalentsolutions.com/wp-content/uploads/2018/05/Hazardous-Waste-Management-and-Disposal-Training-Course.jpg" class="about-us-img" alt="About team">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Close Banner -->
+
+    <!-- Start Section -->
+    <section class="container py-5">
+        <div class="row text-center pt-5 pb-3">
+            <div class="col-lg-8 m-auto">
+                <h1 class="h1">How to process the Hazardous Waste.</h1>
+                <p>
+                    There are many ways to process the hazardous waste. Click on the below banners to know more. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-md-8 col-lg-4 pb-5"id="gen">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <h2 class="h5 mt-4 text-center" >Generation</h2>
+                </div>
+               
+            </div>
+            
+
+            <div class="col-md-8 col-lg-4 pb-5"id="trans">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <h2 class="h5 mt-4 text-center" >Transportation</h2>
+                </div>
+               
+            </div>
+
+            <div class="col-md-8 col-lg-4 pb-5" id="treat">
+                <div class="h-100 py-5 services-icon-wap shadow"> 
+                    <h2 class="h5 mt-4 text-center">Treatment and Storage</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row pt-3 pb-2" id="gen_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;">
+                    Based on the EPA’s Resource Conservation and Recovery Act (RCRA), hazardous waste generators are the first link within the waste management system. The first goal of generators is to determine if the waste they are producing is indeed hazardous, and then figure out how to handle it.
+                    Another goal of generators is to guarantee, and document that produced hazardous waste is correctly:
+                    <ul>
+                    <li>Identified</li>
+                    <li>Managed</li>
+                    <li>Treated</li>
+                    </ul>
+                    These steps must be taken before disposal or recycling takes place. 
+                    The amount of EPA regulation that applies to individual generators is based on how much waste the generator creates. The EPA provides info about which regulations apply to hazardous waste generators.
+                </p>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-2" id="trans_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;">
+                    Following the generators’ production of the toxic waste, transporters might move the produced waste to a facility that treats, disposes of, or recycles the waste. 
+                    Various EPA and US Department of Transportation (DoT) regulations apply since the waste is moved through roads/highways, railroads, and waterways.
+                </p>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-2" id="treat_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;" >
+                    The EPA has attempted to create federal regulations for hazardous waste that are able to balance the goal of protecting public health and Earths’ environment, while sustaining resource conservation. This involves different processes, including treating/disposing of waste to incinerators or landfills, or recycling the waste in a safe and effective manner. 
+                    RCRA requirements are related to companies creating, storing, or disposing of toxic wastes in the USA. The RCRA requires US-located facilities that engage in treating, storing, or disposing of hazardous-type waste to secure a permit. Specific requirements must be met for handling, tracking, and managing waste.
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-8 col-lg-4 pb-5"id="disp">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                    <div class="h1 text-success text-center" ></div>
+                    <h2 class="h5 mt-4 text-center" >Disposal</h2>
+                </div>
+               
+            </div>
+            
+
+            <div class="col-md-8 col-lg-4 pb-5" id="tsdf">
+                <div class="h-100 py-5 services-icon-wap shadow">
+                  
+                    <h2 class="h5 mt-4 text-center" >TSDFs</h2>
+                </div>
+               
+            </div>
+
+            <div class="col-md-8 col-lg-4 pb-5" id="rec">
+                <div class="h-100 py-5 services-icon-wap shadow"> 
+                    <h2 class="h5 mt-4 text-center">Recycling</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row pt-3 pb-2" id="disp_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;">
+                    The disposal of dangerous waste has historically been done in traditional landfills. However, this resulted in large amounts of toxic materials seeping down into the soil. Over time the waste started contaminating ground-water and underground water systems. 
+                    Today, several landfills require counter steps that are used to prevent ground-water contamination. One example is an installed barrier along the landfill’s foundation. This is installed to contain toxic substances that might stay in the landfill’s disposed waste.
+                </p>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-2" id="tsdf_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;">
+                    Treatment, Storage, and Disposal Facilities (TSDFs) provide short-term storage, and treatment or disposal of hazardous wastes. One possible drawback is a higher amount of risk due to the enormous quantities of waste and activities performed at such facilities. 
+                    This issue explains why TSDFs are strictly regulated. In fact, TSDF regulations are set for issues like:
+                    <ul>
+                    <li>Facility management standards</li>
+                    <li>Requirements for toxic waste management units</li>
+                    <li>Other precautions for protecting soil, groundwater, and air</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+
+        <div class="row pt-3 pb-2" id="rec_text" style="display: none;">
+            <div class="col-lg-12 m-auto">
+                <p style="text-align: justify;">
+                    The recycling of hazardous waste provides several benefits, including reducing the volume of treated/disposed of waste materials and the use of raw materials. 
+                    It’s critical to ensure proper storage of the materials. This can prevent events like leaks, spills, fires, and contamination of drinking water and soil. The EPA has created official regulations to make sure recycling is done safely.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- End Section -->
+
+    
+
+
+<!-- Start Footer -->
+<footer class="bg-dark" id="ws_footer">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-md-6 pt-5">
+                <h2 class="h2 text-success border-bottom pb-3 border-light logo">Waste Segregator</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li>
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
+                        Plot no.3, maa ashapura nagar-2, Gujarat, 370001
+                    </li>
+                    <li>
+                        <i class="fa fa-phone fa-fw"></i>
+                        <a class="text-decoration-none" >1234567890</a>
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope fa-fw"></i>
+                        <a class="text-decoration-none">priyanshi.chauhan1234@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-md-6 pt-5">
+                <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                <ul class="list-unstyled text-light footer-link-list">
+                    <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                    <li><a class="text-decoration-none" href="about.html">About Us</a></li>
+                    <li><a class="text-decoration-none" href="#">FAQs</a></li>
+                    <li><a class="text-decoration-none" href="contact.html">Contact</a></li>                </ul>
+            </div>
+
+        </div>
+
+        <div class="row text-light mb-4">
+            <div class="col-12 mb-3">
+                <div class="w-100 my-3 border-top border-light"></div>
+            </div>
+            <div class="col-auto me-auto">
+                <ul class="list-inline text-left footer-icons">
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                    </li>
+                    <li class="list-inline-item border border-light rounded-circle text-center">
+                        <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-auto">
+                <label class="sr-only" for="subscribeEmail">Email address</label>
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                    <div class="input-group-text btn-success text-light">Subscribe</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-100 bg-black py-3">
+        <div class="container">
+            <div class="row pt-2">
+                <div class="col-12">
+                    <p class="text-left text-light">
+                        Copyright &copy; 2021 VIT 
+                        | Designed by Priyanshi Chauhan
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+    <!-- End Script -->
+</body>
+
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Waste Segregator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://ak.picdn.net/shutterstock/videos/20499013/thumb/5.jpg?ip=x480">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Load fonts style after rendering the layout styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-partner text-light text-decoration-none" href="mailto:priyanshi.chauhan1234@gmail.com">priyanshi.chauhan1234@gmail.com</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-partner text-light text-decoration-none" href="tel:1234567890">1234567890</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
+                Waste Segregator
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link dropdown">
+                                Types
+                                <div class="dropdown-content">
+                                  <a href="bio.html">Biodegradable</a>
+                                  <a href="non-bio.html">Non-Biodegradable</a>
+                                  <a href="haz.html">Hazarduous</a>
+                                </div>
+                              </div>
+                            
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                 </div>
+            </div>
+
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- Start Banner Hero -->
+    <div id="ws-hero-carousel" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#ws-hero-carousel" data-bs-slide-to="0" class="active"></li>
+            <li data-bs-target="#ws-hero-carousel" data-bs-slide-to="1"></li>
+            <li data-bs-target="#ws-hero-carousel" data-bs-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="http://swachhindia.domains.ndtv.com/wp-content/uploads/sites/3/2016/08/660_1-2-660x330.jpg" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left align-self-center">
+                                <h1 class="h1 text-success">Waste testimonialsion in india</h1>
+                                
+                                <p style="text-align: justify;">
+                                    A report by the Press Information Bureau in 2016 put India's annual waste generation at 62 million tonnes, “with an average annual growth rate of 4 per cent”. On a daily basis, the country produces more than 1.50 lakh metric tonne (MT) of solid waste, according to a 2019 India Today report.                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="https://www.epw.in/system/files/650x437xFigure_1.png.pagespeed.ic.z_54lAlpC_.webp" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Types of waste.</h1>
+                                <h3 class="h2">Main three types.</h3>
+                                <p style="text-align: justify;">
+                                    The generated waste can be divided into three major categories: Organic (all kinds of biodegradable waste), dry (or recyclable waste) and biomedical (or sanitary and hazardous waste).Nearly 50% of the total waste is organic with the volumes of recyclables and biomedical/hazardous waste growing each year as India becomes more urbanised. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                            <img class="img-fluid" src="https://www.epw.in/system/files/xFigure_2.png.pagespeed.ic.Z0L2B8vJhL.webp" alt="">
+                        </div>
+                        <div class="col-lg-6 mb-0 d-flex align-items-center">
+                            <div class="text-align-left">
+                                <h1 class="h1">Waste Management.</h1>
+                               <p style="text-align: justify;">Less than 60% of waste is collected from households and only 15% of urban India’s waste is processed in a country 12 times as dense as that of the United States.While the collection rate needs to be improved to avoid illegal dumping and burning waste at street corners and unoccupied lands, what happens to the waste post-collection is the subject matter of focus of this section. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#ws-hero-carousel" role="button" data-bs-slide="prev">
+            <i class="fas fa-chevron-left"></i>
+        </a>
+        <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#ws-hero-carousel" role="button" data-bs-slide="next">
+            <i class="fas fa-chevron-right"></i>
+        </a>
+    </div>
+    <!-- End Banner Hero -->
+
+
+    <!-- Start Categories of The Month -->
+    <section class="container py-5">
+        <div class="row text-center pt-3">
+            <div class="col-lg-6 m-auto">
+                <h1 class="h1">Types of the waste.</h1>
+                <p>
+                    Here, we are dealing with three main categories of the waste. Please click on the below link of the waste you want to know more. 
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="https://thumbs.dreamstime.com/b/biodegradable-waste-vector-stamp-white-background-184217484.jpg" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Bio Degradable Waste.</h5>
+                <p class="text-center"><a class="btn btn-success">Click Here</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="https://www.kindpng.com/picc/m/346-3462407_non-biodegradable-sign-hd-png-download.png" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Non-BioDegradable Waste.</h2>
+                <p class="text-center"><a class="btn btn-success">Click Here</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5 mt-3">
+                <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/51fEHE8O0oL._AC_.jpg" class="rounded-circle img-fluid border"></a>
+                <h2 class="h5 text-center mt-3 mb-3">Hazarduous Waste.</h2>
+                <p class="text-center"><a class="btn btn-success">Click Here</a></p>
+            </div>
+        </div>
+        <div class="row text-center pt-3">
+            <div class="col-lg-8 m-auto">
+                <h1 class="h1">Do you want to know the type of the waste you have by yourself?</h1>
+                <p>
+                    Upload the picture of the waste below and know the type.  
+                    <br>
+                    	<form method=post enctype=multipart/form-data>
+					<input type="file" name="inpFile" id="inpFile">
+					<input type="submit" value="Upload" >
+					<div class="image-preview" id="imagePreview">
+					<img src="" alt="" class="image-preview__image">
+					<span class="image-preview__default-text">You will see the image here that you are going to upload.</span>
+					</div>
+				</form>
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Categories of The Month -->
+
+
+    <!-- Start testimonials -->
+    <section class="bg-light">
+        <div class="container py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1">Our Testimonials</h1>
+                    <p> Read below what our customers and members wants to share.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/35af6a41332353.57a1ce913e889.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h2 class="h2 text-decoration-none text-dark">John</h2>
+                            <p class="card-text" style="text-align: justify;">
+                                I was observing in my nearby area that people without segregation just put the waste on fire due to which harmfull gasses released in our environment because that waste might be having hazarduous or non-biodegradable waste. I contacted waste segregator team and they helped my society to process the waste using tecchnology.
+                                <br>Thank you team!! </br>  
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                      <img src="https://pbs.twimg.com/media/D8dDZukXUAAXLdY.jpg" class="card-img-top" alt="...">
+                       
+                        <div class="card-body">
+                           <h2 class="h2 text-decoration-none text-dark">Monica</h2>
+                            <p class="card-text" style="text-align: justify;">
+                                I always wanted to use my tech skills to help and clean the environment. Waste segregation team helped me in this and now I can contribute to make our environment and surroundings waste free. 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4">
+                    <div class="card h-100">
+                            <img src="https://media.istockphoto.com/photos/african-american-woman-picking-lettuce-in-the-garden-picture-id1051410606?k=6&m=1051410606&s=612x612&w=0&h=QWk-ZdpPyZRglipIeymx62gCdltivXDt2Db0ovGDLP0=" class="card-img-top" alt="...">
+                        <div class="card-body">
+                           
+                            <h2 class="h2 text-decoration-none text-dark">Daisy</h2>
+                            <p class="card-text" style="text-align: justify;">
+                            Gardening is my hobbie. I love planting trees and flowers in my garden. But the problem is I don't want to use the pesticides and fertilizer chemicals on my plants and not using them will cause the plants getting ruined. I did not know that my household waste like vegetable peels can work as fertilizers until I surfed the waste segregator website. I uploaded the picture of my household waste and got to know about how we can use the bio degradable waste as a fertilizers and my plants are growing naturally now. Thank you buddy!!
+                            </p>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End testimonials -->
+
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="ws_footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 pt-5">
+                    <h2 class="h2 text-success border-bottom pb-3 border-light logo">Waste Segregator</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Plot no.3, maa ashapura nagar-2, Gujarat, 370001
+                        </li>
+                        <li>
+                            <i class="fa fa-phone fa-fw"></i>
+                            <a class="text-decoration-none" >1234567890</a>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none">priyanshi.chauhan1234@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Further Info</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Home</a></li>
+                        <li><a class="text-decoration-none" href="about.html">About Us</a></li>
+                        <li><a class="text-decoration-none" href="#">FAQs</a></li>
+                        <li><a class="text-decoration-none" href="contact.html">Contact</a></li>                    </ul>
+                </div>
+
+            </div>
+
+            <div class="row text-light mb-4">
+                <div class="col-12 mb-3">
+                    <div class="w-100 my-3 border-top border-light"></div>
+                </div>
+                <div class="col-auto me-auto">
+                    <ul class="list-inline text-left footer-icons">
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item border border-light rounded-circle text-center">
+                            <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <label class="sr-only" for="subscribeEmail">Email address</label>
+                    <div class="input-group mb-2">
+                        <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                        <div class="input-group-text btn-success text-light">Subscribe</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-black py-3">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light">
+                            Copyright &copy; 2021 VIT 
+                            | Designed by Priyanshi Chauhan
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/custom.js"></script>
+    
+    <!-- End Script -->
+</body>
+
+</html>
