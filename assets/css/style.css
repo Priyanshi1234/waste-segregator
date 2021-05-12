@@ -44,6 +44,10 @@ body, ul, li, p, a, label, input, div {
 #main_nav a:hover { color: #69bb7e;}
 #main_nav .navbar .nav-icon { margin-right: 20px;}
 
+.navbar-brand{
+  font-size: 50vw;
+}
+
 /* Hero Carousel */
 #ws-hero-carousel { background: #efefef !important;}
 /* Accordion */
@@ -75,11 +79,11 @@ body, ul, li, p, a, label, input, div {
 }
 
 .image-preview{
-		width: 400px;
-		min-height: 400px;
+		width: 32vw;
+		min-height: 32vw;
 		border: 2px solid #dddddd;
-		margin-top: 15px;
-    margin-left: 20%;
+    margin:auto; 
+    margin-top: 1vw;
 		
 		display: flex;
 		align-items: center;
@@ -91,8 +95,8 @@ body, ul, li, p, a, label, input, div {
 .image-preview__image{
   display:none;
   width: 100%;
+  
 }
-
 
 
 /* partner */

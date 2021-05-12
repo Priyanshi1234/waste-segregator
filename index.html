@@ -63,15 +63,7 @@
                             <a class="nav-link" href="about.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <div class="nav-link dropdown">
-                                Types
-                                <div class="dropdown-content">
-                                  <a href="bio.html">Biodegradable</a>
-                                  <a href="non-bio.html">Non-Biodegradable</a>
-                                  <a href="haz.html">Hazarduous</a>
-                                </div>
-                              </div>
-                            
+                                <a class="nav-link " href="#type">Types</a>                            
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact</a>
@@ -132,7 +124,7 @@
                         </div>
                         <div class="col-lg-6 mb-0 d-flex align-items-center">
                             <div class="text-align-left align-self-center">
-                                <h1 class="h1 text-success">Waste testimonialsion in india</h1>
+                                <h1 class="h1 text-success">Waste production in india</h1>
                                 
                                 <p style="text-align: justify;">
                                     A report by the Press Information Bureau in 2016 put India's annual waste generation at 62 million tonnes, “with an average annual growth rate of 4 per cent”. On a daily basis, the country produces more than 1.50 lakh metric tonne (MT) of solid waste, according to a 2019 India Today report.                                </p>
@@ -186,31 +178,7 @@
 
     <!-- Start Categories of The Month -->
     <section class="container py-5">
-        <div class="row text-center pt-3">
-            <div class="col-lg-6 m-auto">
-                <h1 class="h1">Types of the waste.</h1>
-                <p>
-                    Here, we are dealing with three main categories of the waste. Please click on the below link of the waste you want to know more. 
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="https://thumbs.dreamstime.com/b/biodegradable-waste-vector-stamp-white-background-184217484.jpg" class="rounded-circle img-fluid border"></a>
-                <h5 class="text-center mt-3 mb-3">Bio Degradable Waste.</h5>
-                <p class="text-center"><a class="btn btn-success" href="bio.html">Click Here</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="https://www.kindpng.com/picc/m/346-3462407_non-biodegradable-sign-hd-png-download.png" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Non-BioDegradable Waste.</h2>
-                <p class="text-center"><a class="btn btn-success" href="non-bio.html">Click Here</a></p>
-            </div>
-            <div class="col-12 col-md-4 p-5 mt-3">
-                <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/51fEHE8O0oL._AC_.jpg" class="rounded-circle img-fluid border"></a>
-                <h2 class="h5 text-center mt-3 mb-3">Hazarduous Waste.</h2>
-                <p class="text-center"><a class="btn btn-success" href="haz.html">Click Here</a></p>
-            </div>
-        </div>
+        
         <div class="row text-center pt-3">
             <div class="col-lg-8 m-auto">
                 <h1 class="h1">Do you want to know the type of the waste you have by yourself?</h1>
@@ -218,14 +186,42 @@
                     Upload the picture of the waste below and know the type.  
                     <br>
                     	<form method=post enctype=multipart/form-data>
-					<input type="file" name="inpFile" id="inpFile">
-					<input type="submit" value="Upload" >
+					<input class="btn btn-success" type="file" name="inpFile" id="inpFile">
+					<input class="btn btn-success" type="submit" value="Upload" >
 					<div class="image-preview" id="imagePreview">
 					<img src="" alt="" class="image-preview__image">
-					<span class="image-preview__default-text">You will see the image here that you are going to upload.</span>
+					<span class="image-preview__default-text mt-5">You will see the image here that you are going to upload.</span>
 					</div>
 				</form>
                 </p>
+            </div>
+
+            <div class="col-lg-10 m-auto text-center" id="result">
+                The type of the waste is: 
+            </div>
+        </div>
+
+        <div class="row mt-5" id="type">
+            <div class="col-lg-10 m-auto text-center">
+                <h1 class="h1">Types of the waste.</h1>
+                <p>
+                    Here, we are dealing with three main categories of the waste. Please click on the below link of the waste you want to know more. 
+                </p>
+            </div>
+            <div class="col-12 col-md-4 p-5 ">
+                <a href="#"><img src="https://thumbs.dreamstime.com/b/biodegradable-waste-vector-stamp-white-background-184217484.jpg" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Bio Degradable Waste</h5>
+                <p class="text-center"><a class="btn btn-success" href="bio.html">Click Here</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5">
+                <a href="#"><img src="https://www.kindpng.com/picc/m/346-3462407_non-biodegradable-sign-hd-png-download.png" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Non-Biodegradable Waste</h5>
+                <p class="text-center"><a class="btn btn-success" href="non-bio.html">Click Here</a></p>
+            </div>
+            <div class="col-12 col-md-4 p-5">
+                <a href="#"><img src="https://images-na.ssl-images-amazon.com/images/I/51fEHE8O0oL._AC_.jpg" class="rounded-circle img-fluid border"></a>
+                <h5 class="text-center mt-3 mb-3">Hazarduous Waste</h5>
+                <p class="text-center"><a class="btn btn-success" href="haz.html">Click Here</a></p>
             </div>
         </div>
 
